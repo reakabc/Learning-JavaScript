@@ -1,7 +1,7 @@
 //Document object & methods
 
-let doc;
-doc = document;
+// let doc;
+// doc = document;
 // doc = doc.all; //as array
 // doc = doc.head;
 // doc = doc.body;
@@ -75,19 +75,18 @@ doc = document;
 
 const ul = document.querySelector('ul.collection');
 
-let item = ul.firstChild;
-item = ul.firstElement;
+// let item = ul.firstChild;
 // item = ul.firstElementChild;
 // item = ul.lastElementChild;
 // item = ul.childElementCount;
 //
-// let li = ul.firstElementChild;
-// item = li.parentElement;
-// item = li.parentNode;
-// item = li.nextElementSibling;
-// item = item.nextSibling;
-// item = li.nextElementSibling.nextElementSibling;
-// item = li.nextElementSibling.previousElementSibling;
+let li = ul.firstElementChild;
+item = li.parentElement;
+item = li.parentNode;
+item = li.nextElementSibling;
+item = item.nextSibling;
+item = li.nextElementSibling.nextElementSibling;
+item = li.nextElementSibling.previousElementSibling;
 
 console.log(item);
 
