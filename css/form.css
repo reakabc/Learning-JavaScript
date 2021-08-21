@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+form{
+  margin: 20px;
+  outline: blue
+}
+
+label{
+  margin: 0px;
+  font-size: 12px;
+}
+
+.input-div {
+  margin-top: 5px;
+}
+
+input{
+  border: 2px blue grey;
+  padding: 5px;
+}
+
+input.invalid{
+  border: 2px red dotted;
+}
+
+input.valid{
+  border: 2px lightgreen solid;
+}
